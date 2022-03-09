@@ -10,11 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/BraydenDunnNMIT/Javascript-Playground-2022.git"
   },
-  "keywords": [js, Javascript, Test, Playground],
+  "keywords": [
+    "js",
+    "Javascript",
+    "Test",
+    "Playground"
+  ],
   "author": "Brayden Dunn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BraydenDunnNMIT/Javascript-Playground-2022/issues"
   },
-  "homepage": "https://github.com/BraydenDunnNMIT/Javascript-Playground-2022#readme"
+  "homepage": "https://github.com/BraydenDunnNMIT/Javascript-Playground-2022#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
