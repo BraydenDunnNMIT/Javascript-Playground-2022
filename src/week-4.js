@@ -50,7 +50,7 @@ if (number === 10){
   console.log("Incorrect. Warning; security protocols have been initiated.")  
 }
 
-
-
-
+//JS devs added new var substitutes which are 'const' and 'let' 
+// In const you are not able to change the value of the const integer
+// let allows you to change the variables value and data type e.g number to string
 
