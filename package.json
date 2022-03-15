@@ -2,7 +2,7 @@
   "name": "javascript-playground-2022",
   "version": "1.0.0",
   "description": "Test area for Javascript learning and testing",
-  "main": "app.js",
+  "main": "week-4.js",
   "scripts": {
     "dev": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
