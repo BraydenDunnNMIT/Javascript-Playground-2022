@@ -19,3 +19,6 @@ first_name: "Deus",
 last_name : "The Time Lord",
 course_number:503
 }
+console.log(full_name)
+console.log(full_name.first_name)
+console.log(full_name[last_name])
