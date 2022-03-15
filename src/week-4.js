@@ -42,6 +42,15 @@ for(var i=0; i<10; i++ ){
  console.log(i)   
 }
 
+// Javascript if statements
+var number =9
+if (number === 10){
+ console.log("answer = " + number)   
+} else {
+  console.log("Incorrect. Warning; security protocols have been initiated.")  
+}
+
+
 
 
 
