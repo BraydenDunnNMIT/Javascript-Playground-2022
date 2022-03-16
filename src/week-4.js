@@ -103,5 +103,36 @@ console.log(obj)
 obj.protocol = 123
 console.log(obj)
 console.log(word.toUpperCase())
+//TODO Research primitive values in javascript and objects
+
+var obj1 = {}
+var obj2 = {}
+console.log(obj1 === obj2)
+
+var number_one = 420
+var number_two = 69
+
+console.log(number_one === number_two)
+
+//boolean: true and false
+//numbers: 69420, 141
+//strings: 'sunglasses', 'damn'
+//non-values: null and undefined
+
+var string = "nullify" 
+console.log(str.length = 7)
+console.log(str.length)
+//NOTE The index within an array starts with a 0 
+var numbers = [1, 2, 3, 4, 5,]
+console.log(number[3] = 10)
+console.log(numbers)
+
+function nonvalue(nonvalue){
+return x
+}
+
+console.log(nonvalue())
+
+
 
 
