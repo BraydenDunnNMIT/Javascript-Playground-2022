@@ -54,3 +54,54 @@ if (number === 10){
 // In const you are not able to change the value of the const integer
 // let allows you to change the variables value and data type e.g number to string
 
+var sdv503 = "javascript"
+var x
+var x = 3
+
+var fullname = "xyz"
+function foo(p1, p2){
+return p2/p1
+}
+foo(5,100)
+function sum(x1, x2) {
+  return x1 + x2
+}
+//To call the function needs to be in paranthases
+sum(10, 3)
+//TODO Eloquent JavaScript book online saved needs to be read.
+
+/* Statements vs Expressions 
+A program is a sequence of statements such as 'var' and expressions produce
+values such as within functions. (Ali didn't make much sense explaining this lol)
+*/
+
+var x
+if (y >= 0() ) {
+  (x = y)
+} else {
+   x = -y
+}
+// Refactoring code example take above example statement and compare to the refactored code below
+var x = y >= 0 ? y : -y 
+
+function statements(x){
+  if(y >= 0){
+    return x =y 
+  } else {
+    return x = -y
+  }
+}
+var x =y >= 0 ?y : -y 
+//NOTE Refactoring seems quite hard lmao apparently it isn't too big of a deal in level 5
+
+var word = "Protocol"
+console.log(word.length)
+
+var obj = {}
+console.log(obj)
+
+obj.protocol = 123
+console.log(obj)
+console.log(word.toUpperCase())
+
+
