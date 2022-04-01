@@ -83,9 +83,18 @@ var msg = "hello bean sproint"
      console.log(msg)
  }
  console.log(readMsg())
+
+ //block scoping
+
+ function outerfunc() {
+     var msg = "hello world"
+     function innerfunc() {
+         console.log(msg)
+     }
+     console.log(innerfunc())
+ }
+ console.log(outerfunc())
  
-
-
 /*
 a block scope is within the conditions which are the {} brackets. anything within those brackets is
 called a block scope. within an if statement a while statement a for loop and switch.
@@ -96,5 +105,25 @@ has access to the variable outside but not within the block scope/ the curly bra
 
 */ 
 
+/*
+Data type.
+1 -numbers
+2- boolean
+3- strings
+4- objects 
 
+*/
+
+let a = 1 //A number datatype
+let b = "hello" //B is a string
+let c = true //C is a boolean datatype 
+let d; //D is undefined datatype
+/*
+ (Boolean meaning denoting a system of
+ algebraic notation used to represent
+ logical propositions by means of the binary digits 0 
+(false) and 1 (true), especially in computing and electronics)
+*/
+let sum = "1"+"1"
+console.log(sum)
 
