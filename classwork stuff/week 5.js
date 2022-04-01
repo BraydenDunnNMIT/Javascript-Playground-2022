@@ -178,6 +178,19 @@ console.log(test[i])
  }
  console.log(android)
 
+/*
+a function is a piece of code designed to complete an action 
+ like it performs a task or a calculation
+ you need to invoke a function
+
+ */
+
+ function div(numb3, numb2){
+return numb3/numb2
+ }
+console.log(div(6, 3))
+
+
 
 
 
