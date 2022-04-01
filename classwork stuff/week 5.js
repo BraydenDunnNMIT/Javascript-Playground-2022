@@ -124,6 +124,61 @@ let d; //D is undefined datatype
  logical propositions by means of the binary digits 0 
 (false) and 1 (true), especially in computing and electronics)
 */
-let sum = "1"+"1"
+let sum = 1+1 
 console.log(sum)
+
+let num =3.334566
+console.log(num)
+
+let test = 3 / "ali"
+console.log(test)
+//error code is NaN or Not a Number
+//but if we do divide by 0
+
+let test2 = 3 / 0
+console.log(test2)
+//we get infinity
+
+//doing strings
+
+let str = "brayden the executer"
+console.log(str)
+let str1 = "null and void soul"
+console.log(str1)
+
+let fullstr = str + " " + str1
+console.log(fullstr)
+
+//string template how to write you use ${}
+let newstr = `newstring damn ${str} and another newstring ${str1}`
+console.log(newstr)
+
+let output = `the sum of value1 and value2 is ${sum}`
+console.log(output);
+
+//boolean only two keywords true and false
+ let bol = true
+ console.log(bol)
+//can use greater than, less than and equal signs 
+ console.log(5 < 3)
+ console.log(5>=4)
+ console.log(5=1)
+
+ //an array. Defined by square brackets []
+ let test5 = ["string", number]
+console.log(test[2])
+//An array starts at 0 when counting an array
+for(i=0; i<test.length; i++) {
+console.log(test[i])
+}
+ var android = {
+     firmware: 'ver.0414 Alpha',
+     material: 'Sheet metal construction',
+     safety: 'not safe'
+ }
+ console.log(android)
+
+
+
+
 
