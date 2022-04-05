@@ -182,13 +182,18 @@ console.log(test[i])
 a function is a piece of code designed to complete an action 
  like it performs a task or a calculation
  you need to invoke a function
-
+they retun the value
  */
 
  function div(numb3, numb2){
 return numb3/numb2
  }
 console.log(div(6, 3))
+
+function add(numbe1,numbe2,numbe3,numbe4){
+    return `${numbe1 + numbe2 + numbe3 + numbe4}` 
+}
+console.log(add(1,2,3,4))
 
 
 
