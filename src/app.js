@@ -8,4 +8,4 @@ Remember to git add. , then git commit -m "the message" , then git push origin
 
 To create the JSON package npm init -y (the -y stands for default for a default copy and the init 
     stands for a stortened form of the word 'initialized')
-/*
+*/
