@@ -43,7 +43,7 @@ a string and return an array of numbers as per the following rules listed below
 array rules([4,3,2,1]), "ASC") -> [1,2,3,4];
 array rules2([5,6,7,8,9]), "DES") -> [9,8,7,6,5];
 array rules3([4,3,2,1], "None") -> [4,3,2,1]
-*/
+
 function ArrayRules(arr,str){
     switch(str){
         case 'Asc':
@@ -55,5 +55,5 @@ function ArrayRules(arr,str){
             return arr
     }
 }
-
+*/
 
